@@ -1,12 +1,12 @@
 $(function() {
 
   $("#contactForm input,#contactForm textarea").jqBootstrapValidation({
-    preventSubmit: true,
+    preventSubmit: false,
     submitError: function($form, event, errors) {
       // additional error messages or events
     },
     submitSuccess: function($form, event) {
-      event.preventDefault(); // prevent default submit behaviour
+      /*event.preventDefault(); // prevent default submit behaviour
       // get values from FORM
       var name = $("input#name").val();
       var email = $("input#email").val();
@@ -20,7 +20,7 @@ $(function() {
       $this = $("#sendMessageButton");
       $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
       $.ajax({
-        url: "././mail/contact_me.php",
+        url: "http://formspree.io/bmisljen@gmail.com",
         type: "POST",
         data: {
           name: name,
@@ -56,7 +56,7 @@ $(function() {
             $this.prop("disabled", false); // Re-enable submit button when AJAX call is complete
           }, 1000);
         }
-      });
+      });*/
     },
     filter: function() {
       return $(this).is(":visible");
