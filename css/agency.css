@@ -718,9 +718,20 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   font-size: 20px;
 }
 
+@media screen and (max-width: 600px) {
+  .icon-bar{
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}
+
 /* Style the social media icons with color, if you want */
-.icon-bar a:hover {
-  background-color: #000;
+.icon-bar {
+	background-color: #000;
 }
 
 .facebook {
