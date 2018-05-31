@@ -744,6 +744,11 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   color: white;
 }
 
+.github {
+  background: #333;
+  color: white;	
+}
+
 .linkedin {
   background: #007bb5;
   color: white;
