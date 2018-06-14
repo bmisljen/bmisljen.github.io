@@ -126,7 +126,7 @@ img::-moz-selection {
   font-weight: 400;
   padding: 0.75em 0;
   letter-spacing: 1px;
-  color: black;
+  color: white;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -167,7 +167,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: #fed136;
-  background-image: url("../img/new-header.jpg");
+  background-image: url("../img/header2.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -188,6 +188,7 @@ header.masthead .intro-text {
 }
 
 header.masthead .intro-text .intro-lead-in {
+  color: #ffffff;
   font-size: 22px;
   font-style: italic;
   line-height: 22px;
@@ -196,6 +197,7 @@ header.masthead .intro-text .intro-lead-in {
 }
 
 header.masthead .intro-text .intro-heading {
+  color: #ffffff;
   font-size: 30px;
   font-weight: 700;
   line-height: 30px;
