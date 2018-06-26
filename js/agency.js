@@ -34,7 +34,8 @@
         $('#back-to-top').tooltip('show');
 
 	$(document).ready(function(){
-		var screenWidth = $(window).width();
+		$('#back-to-top').tooltip('hide');
+		var screenWidth = $(window).width();	
 		// if window width is smaller than 800 remove the autoplay attribute
 		// from the video
 		if (screenWidth < 768){
