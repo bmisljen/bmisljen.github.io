@@ -762,7 +762,10 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   .icon-bar{
     visibility: hidden;
   }
-  .header-container{
+  .masthead{
+    visibility: hidden;
+  }
+  .video-container{
     visibility: hidden;
   }
 }

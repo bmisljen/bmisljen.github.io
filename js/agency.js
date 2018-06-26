@@ -33,6 +33,16 @@
         
         $('#back-to-top').tooltip('show');
 
+	$(document).ready(function(){
+		var screenWidth = $(window).width();
+		// if window width is smaller than 800 remove the autoplay attribute
+		// from the video
+		if (screenWidth < 768){
+			$('video').removeAttr('autoplay');
+		} else {
+			$('video').attr('autoplay');
+		}
+	});
 
   // Closes responsive menu when a scroll trigger link is clicked
   $('.js-scroll-trigger').click(function() {
