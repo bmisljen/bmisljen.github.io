@@ -164,6 +164,67 @@ img::-moz-selection {
   }
 }
 
+header.masthead-mobile {
+  text-align: center;
+  color: #fed136;
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-image: url("../img/header2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;*
+  background-size: cover;
+}
+
+header.masthead-mobile .intro-text {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+header.masthead-mobile .intro-text .intro-lead-in {
+  color: #FFFFFF;
+  font-size: 22px;
+  font-style: italic;
+  line-height: 22px;
+  margin-bottom: 25px;
+  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+header.masthead-mobile .intro-text .intro-heading {
+  color: #FFFFFF;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-bottom: 25px;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+@media (min-width: 768px) {
+  header.masthead-mobile .intro-text {
+    padding-top: 300px;
+    padding-bottom: 200px;
+  }
+  header.masthead-mobile .intro-text .intro-lead-in {
+    font-size: 40px;
+    font-style: italic;
+    line-height: 40px;
+    margin-bottom: 25px;
+    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+
+  header.masthead-mobile .intro-text .intro-heading {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 50px;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+}
+
 header.masthead {
   text-align: center;
   color: #fed136;
@@ -706,7 +767,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  z-index: 50;
+  z-index: 5;
 }
 
 /* Style the icon bar links */
@@ -721,6 +782,15 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 @media(max-width: 768px) {
   .icon-bar{
+    visibility: hidden;
+  }
+  .header-container{
+    visibility: hidden;
+  }
+}
+
+@media(min-width: 769px) {
+  .masthead-mobile{
     visibility: hidden;
   }
 }
