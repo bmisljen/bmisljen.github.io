@@ -716,18 +716,6 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   .icon-bar{
     visibility: hidden;
   }
-  .masthead{
-    visibility: hidden;
-  }
-  .video-container{
-    visibility: hidden;
-  }
-}
-
-@media(min-width: 769px) {
-  .masthead-mobile{
-    visibility: hidden;
-  }
 }
 
 /* Style the social media icons with color, if you want */
