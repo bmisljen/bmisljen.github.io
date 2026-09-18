@@ -1,6 +1,6 @@
 Misljencevic Partners
 
-Currently Looking to Acquire a Service Based Business in Ontario. 
+Currently Looking to Acquire a Service Based Business in Southern Ontario. 
 
 Acquisition Target:
   1. Recurring revenue service business with proven demand
