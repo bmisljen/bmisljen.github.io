@@ -34,6 +34,8 @@ body {
 header {
   text-align: center;
   padding: 3rem 0 2rem 0;
+  background-color: #ADD8E6;
+  color: #000000; /* Dark text for contrast */
 }
 
 header h1 {
