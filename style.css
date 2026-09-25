@@ -56,6 +56,14 @@ body {
   object-position: center;  /* Centers headshot inside the circle */
 }
 
+/* Apply directly to the <img> tag or hero image class */
+.hero-image {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 180px;  /* Ensure width and height match */
+  height: 180px; /* Equal dimensions guarantee a perfect circle */
+}
+
 /*.hero {
     display: grid;
     grid-template-columns: 200px 1fr;
